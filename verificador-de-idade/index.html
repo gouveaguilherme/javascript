@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div class="card">
+                <div class="card-text">
+                    <p>Ano de Nascimento:
+                        <input type="number" name="ano" id="ano" min="0">
+                    </p>
+                    <p>Sexo:
+                        <input type="radio" name="sex" id="masc" checked>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="sex" id="fem">
+                        <label for="fem">Feminino</label>
+                    </p>
+                    <p>
+                        <input id="btn" type="button" value="Verificar" onclick="verificar()">
+                    </p>
+                </div>
+                <div id="res">
+                    <p>Preencha os dados acima para ver o resultado!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer><p>&copy; Guraams. Todos os diretos reservados!</p></footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
