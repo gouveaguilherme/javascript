@@ -1,1 +1,1 @@
-## Some scripts and projects in javascript to practice logic and algorythms.
+## Some scripts and projects in javascript to practice logic and algorithms.
